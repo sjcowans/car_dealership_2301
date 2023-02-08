@@ -11,4 +11,21 @@ class Dealership
     @inventory << cars
     @inventory_count += 1
   end
+
+  def has_inventory
+    if @inventory_count == 0
+      false
+    else
+      true
+    end
+  end
+
+  def cars_by_make(make)
+  end
+    
+  def total_value
+  end
+
+  def dealership_details
+  end
 end
